@@ -8,6 +8,7 @@ O sistema evoluiu de uma interface de consola (Fase 1) para uma aplicação Desk
 ---
 
 **🏗️ Arquitetura do Sistema**
+
 A aplicação segue o padrão MVVM (Model-View-ViewModel) e os princípios de Clean Architecture, garantindo que a lógica de negócio seja independente da base de dados e da interface.
 
 1. Motor de Jogo (tds.model)
@@ -42,6 +43,7 @@ Polling Assíncrono: Implementação de waitForOtherSide via Kotlin Coroutines. 
 ---
 
 **🎨 Interfaces de Utilizador**
+
 Desktop (Compose Multiplatform)
 A interface gráfica oferece uma experiência moderna e intuitiva:
 
@@ -57,6 +59,7 @@ Uma aplicação robusta de linha de comandos que processa ordens como START <id>
 ---
 
 **🛠️ Stack Tecnológica**
+
 Linguagem: Kotlin 1.9+
 
 UI Framework: Jetpack Compose Multiplatform
@@ -70,6 +73,7 @@ Assincronismo: Kotlin Coroutines
 ---
 
 **🚀 Como Executar**
+
 Pré-requisitos:
 
 Java JDK 17 ou superior.
